@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* { font-family: 'Roboto', sans-serif; }
+
+/* stylelint-disable */
+
+/* :root {
+  --footer-height: 52px;
+} */
+
+/* stylelint-enable */
+a { 
+  color: black;
+  font-weight: bold;
+  transition: transform .2s;
+}
+a:hover {
+  text-decoration: none;
+  transform: scale(1.1); 
+}
+
+/* tr {
+  transition: transform .2s;
+}
+
+tr:hover {
+  transform: scale(1.05); 
+} */
+
+
+/* svg:hover {
+  fill: red;
+} */
+.main-container {
+  min-height: calc(100vh - var(--footer-height));
+}
+
+.gradient {
+  fill: url('#gradient-layer');
+  pointer-events: all;
+}
+
+.gradient ~ defs stop {
+  transition: 0.3s;
+}
+
+.gradient.hover ~ defs stop:first-child {
+  stop-color: #8940de;
+}
+
+.gradient.hover ~ defs stop:nth-child(2) {
+  stop-color: #e1a728;
+}
+
+.gradient.hover ~ defs stop:last-child {
+  stop-color: #24bed2;
+}
+
+.footer {
+  height: var(--footer-height);
+  line-height: 60px;
+}
+
+body {
+  width: 100%;
+  /* background-color: #f2eecb; */
+  /* color: rgb(2, 2, 37); */
+  /* color: white; */
+  margin: 0;
+  padding: 0;
+  background-image: url("./img/paper.jpg");
+}
+
+#top-bar {
+  margin: 28px 0 28px 0;
+}
+
+.spacing-reset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.list-reset {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  border: 0;
+}
+
+/* I TURNED OFF THIS MEDIA PROPERTIES (PETER) */
+/* @media (min-width: 1200px) {
+  .container {
+    width: 990px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 990px;
+  }
+} */
+
+.enter_section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#enter_text {
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  font-size: 16px;
+}
+
+.task {
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.button-size {
+  padding-bottom: 20px;
+}
+
+#text-enter-button {
+  margin-top: 10px;
+  width: 398px;
+  margin-bottom: 16px;
+}
+
+
+/* Peter's classes start here */
+.kakeiboFont {
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
+.marginTopandBottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.centeredLoad {
+  text-align: center;
+}
+
+
+/* .centerRow {
+  text-align: center;
+
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: -4px;
+  } */
+
+.signupMargin {
+  margin-top: 50px;
+}
+
+.signupMargin2 {
+  margin-bottom: 50px;
+}
+
+/* html, body, #app, #app>div {
+  height: 100%
+} */
+
+.thumb {
+  border-radius: 15px;
+  /* margin-left: 15px; */
+  /* padding: 50px; */
+  /* background-color: green; */
+  transition: transform .2s;
+  max-width: 128px;
+  max-height: 128px;
+  /* margin: 0 auto; */
+  box-shadow: 10px 10px 8px #888888;
+}
+
+/* .thumb:hover {
+  transform: scale(1.5);
+} */
+
+/* .texty {
+  text-align: left;
+} */
+
+.solidBorders {
+  min-height: 10vh;
+  /* overflow: auto; */
+  border-radius: 15px;
+  border: 1px solid black;
+  /* margin-left: 5px; */
+  /* padding: 10 px; */
+  /* margin-bottom: 40px; */
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.cnFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.extraMarg {
+  margin-top: 10px;
+}
+
+.blackBtn {
+  transition: transform .2s;
+}
+
+.blackBtn:hover {
+  transform: scale(1.2);
+}
+
+.cardShowMarg {
+  margin-left: 15px;
+}
+
+.customFormMargin {
+  margin-top: 40px;
+}
+
+.hide {
+  display: none;
+}

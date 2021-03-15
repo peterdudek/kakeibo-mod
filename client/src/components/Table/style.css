@@ -1,0 +1,17 @@
+.tableRound {
+  border-radius: 15px;
+}
+.scrollable {
+  height: 40vh;
+  overflow: auto;
+  border-radius: 15px;
+  border: 1px solid gray;
+  /* margin-left: 5px; */
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+table {
+  color: gray;
+}
+

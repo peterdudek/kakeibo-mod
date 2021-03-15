@@ -1,0 +1,38 @@
+.holder {   
+  width: auto;
+  display: block;
+  /* display: inline-block;     */
+  text-align: center;
+}
+
+.holder img {
+  width: 30%;
+  height: auto;
+}
+
+/* .narrower {
+  width: 18rem;
+} */
+
+.scrollableCard {
+  height: 50vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+.extraMargin {
+  margin-left: 20px;
+}
+
+.cardMargin {
+  margin: 10px 40px 10px 40px;
+}
+
+.centerShowBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 20px 0px 10px 0px
+}
